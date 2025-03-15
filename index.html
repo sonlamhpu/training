@@ -3,40 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BHL - Du lịch, Visa & Du học Trung Quốc</title>
+    <title>Dream Travel - Trải nghiệm khác biệt</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-        header { background: #ff6600; color: white; text-align: center; padding: 20px; font-size: 24px; }
-        .container { width: 80%; margin: auto; padding: 20px; }
-        .section { margin-bottom: 30px; }
-        .section h2 { color: #ff6600; }
-        footer { background: #333; color: white; text-align: center; padding: 10px; margin-top: 20px; }
+        header { background: #fff; padding: 15px; display: flex; align-items: center; justify-content: space-between; border-bottom: 2px solid #ddd; }
+        .logo img { height: 50px; }
+        .contact { font-size: 14px; }
+        .menu { background: #0073e6; padding: 10px; text-align: center; }
+        .menu a { color: white; text-decoration: none; margin: 0 15px; }
+        .banner { width: 100%; position: relative; }
+        .banner img { width: 100%; height: auto; }
+        .tour-filter { text-align: center; padding: 20px; background: #f4f4f4; }
+        .tour-filter select { padding: 10px; margin: 10px; }
+        footer { background: #333; color: white; text-align: center; padding: 15px; }
     </style>
 </head>
 <body>
     <header>
-        <h1>Công ty BHL - Chuyên Du lịch, Visa & Du học Trung Quốc</h1>
+        <div class="logo">
+            <img src="logo.png" alt="Dream Travel">
+        </div>
+        <div class="contact">
+            <p>📞 0935 999 886 | 0243 926 2730</p>
+            <p>📍 Định Công, Hoàng Mai, Hà Nội</p>
+        </div>
     </header>
     
-    <div class="container">
-        <div class="section" id="du-lich">
-            <h2>1. Giới thiệu về Du lịch Trung Quốc</h2>
-            <p>Trung Quốc là một điểm đến hấp dẫn với nhiều danh lam thắng cảnh nổi tiếng như Vạn Lý Trường Thành, Cố Cung Bắc Kinh, Phượng Hoàng Cổ Trấn. Chúng tôi cung cấp các tour du lịch chất lượng, hướng dẫn viên chuyên nghiệp giúp bạn có trải nghiệm tuyệt vời nhất.</p>
-        </div>
-        
-        <div class="section" id="visa">
-            <h2>2. Dịch vụ Làm Visa</h2>
-            <p>BHL hỗ trợ khách hàng xin visa Trung Quốc nhanh chóng, đơn giản với tỷ lệ đậu cao. Chúng tôi tư vấn miễn phí và hỗ trợ chuẩn bị hồ sơ đầy đủ theo yêu cầu của Đại sứ quán.</p>
-        </div>
-        
-        <div class="section" id="du-hoc">
-            <h2>3. Du học tại các trường đại học nổi tiếng ở Trung Quốc</h2>
-            <p>Chúng tôi giúp học sinh, sinh viên tiếp cận các chương trình du học tại các trường đại học hàng đầu Trung Quốc như Đại học Thanh Hoa, Đại học Bắc Kinh, Đại học Phúc Đán. Hỗ trợ tư vấn hồ sơ, học bổng và thủ tục nhập học.</p>
-        </div>
+    <nav class="menu">
+        <a href="#">Trang Chủ</a>
+        <a href="#">Tour Nước Ngoài</a>
+        <a href="#">Tour Trong Nước</a>
+        <a href="#">Du Thuyền</a>
+        <a href="#">Khuyến Mãi</a>
+        <a href="#">Liên Hệ</a>
+    </nav>
+    
+    <div class="banner">
+        <img src="banner.jpg" alt="Mùa Hoa Tây Bắc">
+    </div>
+    
+    <div class="tour-filter">
+        <h2>Tìm kiếm tour du lịch</h2>
+        <select>
+            <option>Nhóm Tour</option>
+            <option>Tour trong nước</option>
+            <option>Tour nước ngoài</option>
+        </select>
+        <select>
+            <option>Nơi khởi hành</option>
+            <option>Hà Nội</option>
+            <option>TP. Hồ Chí Minh</option>
+        </select>
+        <select>
+            <option>Nơi đến</option>
+            <option>Mộc Châu</option>
+            <option>Sapa</option>
+            <option>Hà Giang</option>
+        </select>
+        <input type="date">
+        <button>Tìm kiếm</button>
     </div>
     
     <footer>
-        <p>&copy; 2025 BHL - Du lịch, Visa & Du học Trung Quốc | Liên hệ: contact@bhl.com</p>
+        <p>&copy; 2025 Dream Travel - Trải nghiệm khác biệt</p>
     </footer>
 </body>
 </html>
